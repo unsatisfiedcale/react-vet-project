@@ -1,0 +1,24 @@
+.dropdown-menu {
+    position: relative;
+}
+
+
+/* notification.css */
+
+/* notification.css */
+
+.dropdown .fa-bell {
+    color: #da8824; /* Bildirim zilinin rengi */
+  }
+  
+  .dropdown .fa-bell.active {
+    color: #da8824; /* Aktif durumda bildirim zilinin rengi */
+  }
+  
+  .dropdown .badge-notification {
+    background-color: #ff0000; /* Bildirim sayacının arka plan rengi */
+    color: #ffffff; /* Bildirim sayacının metin rengi */
+  }
+
+  
+  

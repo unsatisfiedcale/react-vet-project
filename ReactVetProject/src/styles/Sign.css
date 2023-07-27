@@ -1,0 +1,26 @@
+.fa-crow {
+    color: #709085;
+}
+
+.form {
+    width: 23rem;
+}
+
+.fw-normal {
+    letter-spacing: 1px;
+}
+
+.swal-modal {
+    font-family: sans-serif;
+  }
+  
+  .swal-text {
+    text-align: center;
+  }
+  
+  .signform1 {
+    width: 60%;
+    
+    margin-top: -100px;
+
+  }

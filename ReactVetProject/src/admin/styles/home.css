@@ -1,0 +1,18 @@
+.appointment-box {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(233, 57, 30, 0.653);
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 25px 0px 20px -20px rgba(0,0,0,0.45);
+  }
+  
+  .appointment-box h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .appointment-box p {
+    margin: 5px 0;
+  }
+  

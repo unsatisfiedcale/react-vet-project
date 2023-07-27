@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+  --mainColor: #32bf9a;
+  --mainColorLight: #5767aa;
+  --secondaryColor: #ffffff;
+  --textColor: #eee;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 2rem;
+  background-color: var(--mainColor);
+  color: var(--textColor);
+}
+
+nav a {
+  margin: 0 1rem;
+  color: var(--textColor);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--secondaryColor);
+}
+
+header .nav-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--textColor);
+  visibility: hidden;
+  opacity: 0;
+  font-size: 1.8rem;
+}
+
+header div,
+nav {
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  header nav {
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: var(--mainColor);
+    transition: 1s;
+  }
+
+  header .responsive_nav {
+    transform: translateY(100vh);
+  }
+
+  nav .nav-close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+  }
+
+  nav a {
+    font-size: 1.5rem;
+  }
+  
+}
+
+.sign-btn {
+  padding: 0.1em 2em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #32bf9a;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 3px #31a27f;
+  justify-items: center;
+  font-size: 20px;
+  margin-left: 250px;
+}
+
+.sign-btn:hover {
+  background-color: #31a27f;
+  box-shadow: 0 3px #32bf9a;
+}
+
+.sign-btn button:active {
+  margin-top: 2px;
+  margin-bottom: -2px;
+  background-color: #32bf9a;
+  box-shadow: 0 -2px 0 0 rgb(255, 255, 255);
+}
+.login-btn {
+  padding: 0.1em 2em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #32bf9a;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 3px #31a27f;
+  justify-items: center;
+  font-size: 20px;
+}
+
+.login-btn:hover {
+  background-color: #31a27f;
+  box-shadow: 0 3px #32bf9a;
+}
+
+.login-btn button:active {
+  margin-top: 2px;
+  margin-bottom: -2px;
+  background-color: #32bf9a;
+  box-shadow: 0 -2px 0 0 rgb(255, 255, 255);
+}
+
+
+header h3 {
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
